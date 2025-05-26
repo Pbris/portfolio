@@ -1,0 +1,5 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#000000"/>
+  <!-- Letter P (smaller) -->
+  <path d="M 180 150 L 180 362 L 230 362 L 230 270 L 280 270 Q 320 270 335 235 Q 350 200 335 165 Q 320 130 280 130 L 180 130 Z M 230 170 L 270 170 Q 290 170 295 185 Q 300 200 295 215 Q 290 230 270 230 L 230 230 Z" fill="#ffffff"/>
+</svg>

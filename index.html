@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/letter_p_design (3).svg" />
+
+  <title>Peter Landbris | Portfolio</title>
+
+  <meta name="description" content="Peter Landbris - Web developer based in Göteborg, Sweden. Showcasing projects and skills in full-stack development.">
+  <meta name="keywords" content="Peter Landbris, web developer, fullstack, React, Vue.js, JavaScript, TypeScript, Node.js, Göteborg, Sweden">
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <header class="site-header" role="banner" id="top">
+    <div class="container">
+      <nav class="main-navigation" role="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero-content-wrapper container">
+      <div class="hero-content">
+        <h1 class="main-title">
+          <span>Peter Landbris</span>
+        </h1>
+        <p>Web Developer based in Göteborg, Sweden.</p>
+        <a href="#contact" class="button button--primary">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="projects-section" id="work">
+      <div class="container">
+        <h2>Recent Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3>Adoranten</h3>
+              <p>
+                Co-developer (mainly frontend) of a website for a journal using Vue.js and Wagtail CMS. The project focuses on creating a modern and user-friendly platform both for the journal admins to publish articles through the CMS and for the users reading the articles.
+              </p>
+              <ul class="tech-stack">
+                <li>Vue.js</li>
+                <li>Wagtail CMS</li>
+                <li>Python</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://github.com/gu-gridh/adoranten-frontend" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="github-icon" alt="GitHub">
+                </a>
+              </div>
+
+            </div>
+            <div class="project-image-wrapper">
+              <img src="./images/adoranten.png" class="project-image" alt="Adoranten" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3>Svenska Elsparkcyklar AB</h3>
+              <p>
+                A team project developed during a course at BTH, focusing on distributed teamwork and full-stack development of an E-scooter rental system for customers and admins. I was mainly responsible for the backend. The project includes a REST API (NestJS), React-based frontend with TypeScript, and a Svelte bike simulator.
+              </p>
+              <ul class="tech-stack">
+                <li>NestJS</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Svelte</li>
+                <li>SQLite3</li>
+                <li>Docker</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://github.com/KarlComSe/SvenskaElsparkcyklarAB" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="github-icon" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project-image-wrapper">
+              <img src="./images/elcyklar.png" class="project-image" alt="E-scooter Project" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3>Document Editor</h3>
+              <p>
+                A real-time collaborative document editor (similar to Google Docs) developed during a team project course at BTH. Main focus was functionality rather than design. It is hosted on Azure with features like authentication, WebSocket-based live editing, and a code editor mode using CodeMirror. Built with React and TypeScript frontend and Express.js backend.
+              </p>
+              <ul class="tech-stack">
+                <li>React</li>
+                <li>TypeScript</li>                
+                <li>GraphQL</li>
+                <li>WebSockets</li>
+                <li>CodeMirror</li>
+                <li>Azure</li>
+                <li>Express.js</li>
+              </ul>
+              
+              <div class="project-links">
+                <a href="https://github.com/Pbris/jsramverk" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="github-icon" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project-image-wrapper">
+              <img src="./images/jsramverk.png" class="project-image" alt="Document Editor" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-description">
+            <p>
+              I'm a web developer studying Software Engineering at Blekinge Institute of Technology, currently doing my thesis work at GRIDH, Gothenburg University.
+            </p>
+            <p>
+              I enjoy building full-stack applications and have experience with modern JavaScript frameworks, backend development, and cloud technologies. Always eager to learn new technologies and tackle interesting challenges.
+            </p>
+          </div>
+
+          <div class="profile-image-wrapper">
+            <img class="profile-image" src="./images/Me.jpg" alt="Peter Landbris" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <div class="contact-details">
+        <p>
+          I'm interested in new opportunities and collaborations. Whether you have something specific in mind or just want to connect, feel free to reach out.
+        </p>
+        <a href="mailto:peter.landbris@gmail.com" class="button">peter.landbris@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer role="contentinfo" class="site-footer">
+    <div class="container">
+      <ul class="social-links">
+        <li class="social-link-item">
+          <a href="https://github.com/peterlandbris" title="Link to Github Profile">
+            <img src="./images/github.svg" class="social-icon" alt="Github">
+          </a>
+        </li>
+        <li class="social-link-item">
+          <a href="https://www.linkedin.com/in/peterlandbris" title="Link to Linkedin Profile">
+            <img src="./images/linkedin.svg" class="social-icon" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
